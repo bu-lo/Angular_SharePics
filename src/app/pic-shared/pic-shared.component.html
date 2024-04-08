@@ -1,0 +1,10 @@
+<div class="pic-shared-card">
+<h2>{{picshared.title}}</h2>
+<p>Mis en ligne le {{picshared.createdDate}}</p>
+<img [src]="picshared.imageUrl" [alt]="picshared.title">
+<p>{{picshared.description}}</p>
+<p>
+    <button (click)="onWap()">{{buttonText}}</button>
+    💕{{picshared.wap}}
+</p>
+</div>
